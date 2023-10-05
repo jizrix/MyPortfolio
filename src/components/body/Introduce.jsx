@@ -24,40 +24,43 @@ const Introduce = () => {
   const avatarImg =
     'https://lh3.googleusercontent.com/a/ACg8ocJJW6D-NNa3Qp8nRktChevpwNXouO-n_er9jHQUiApU8pTi=s317-c-no';
   const avatarImgArmy =
-    'https://cdn.discordapp.com/attachments/1131476233998307398/1159207972547858452/army_avatar.webp?ex=65302f8d&is=651dba8d&hm=c6ad99ad25e07d5c780d0800fc38d0d9f6191ef65cb10c1f436b023467b622cf&';
+    'https://cdn.discordapp.com/attachments/1131476233998307398/1159418460321878036/lego.webp?ex=6530f395&is=651e7e95&hm=34bc2abc353881e664beddce9b95a422d1d0356623dd6d6ff4164771bbdb5119&';
 
   return (
       <div className='flex flex-col w-full lg:flex-row mt-4'>
-        <div className='flex flex-col w-[40%] h-screen bg-base-300 p-[7rem]'>
+        <div className='flex flex-col w-[40%] justify-center h-screen bg-base-300 p-[6rem]'>
           <div className='flex flex-col justify-center'>
             <p className='text-[5rem] leading-[1] font-bold'>Hello</p>
-            <p className='text-[3rem] leading-[1] font-bold'>i'm Weerapan.</p>
+            <p className='text-[3rem] leading-[1] tracking-wider font-bold mb-6'>i'm Weerapan.</p>
 
-            <label className='swap swap-flip text-9xl mt-6'>
+            <div className=''>
+            <label className='swap swap-flip text-9xl'>
               {/* this hidden checkbox controls the state */}
               <input type='checkbox' />
 
               <div className='swap-on flex justify-center items-center'>
                 <img
-                  className='w-full'
+                  className='w-[500px]'
                   src={`${avatarImgArmy}`}
                   alt='ArmyAvatar'
                 />
               </div>
               <div className='swap-off flex justify-center items-center'>
-                <img className='w-full' src={`${avatarImg}`} alt='MyAvatar' />
+                <img className='w-[500px]' src={`${avatarImg}`} alt='MyAvatar' />
               </div>
             </label>
-            <div className='text-[0.75rem] text-right'>
-              Photo: Weerapan Thairak
+            </div>
+
+
+            <div className='text-[1rem] text-right'>
+              Photo: Weerapan.
             </div>
             <div className=''>
-              <h4 className='text-2xl font-bold py-3'>
+              <h4 className='text-[1.5rem] font-bold py-3'>
                 here's how i came here...
               </h4>
-              <p>
-                with a passion for creating i started playing Lorem ipsum, dolor
-                sit amet consectetur adipisicing elit.
+              <p className='text-[1.25rem]'>
+              I loved creating with LEGO bricks as a kid. Discovering LEGO Mindstorms, which let me build and program robots, ignited my passion for coding. I joined WRO and earned 6th place in the South East Asia.
               </p>
             </div>
           </div>
