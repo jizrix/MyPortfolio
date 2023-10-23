@@ -1,4 +1,3 @@
-import React from 'react';
 import Hero from '../components/body/Hero';
 import Introduce from '../components/body/Introduce';
 
