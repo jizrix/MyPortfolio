@@ -7,7 +7,6 @@ import {
   MdKitesurfing,
   MdGames,
 } from 'react-icons/md';
-import { FiCamera } from 'react-icons/fi';
 import { SiYoutubemusic, SiCss3, SiExpress } from 'react-icons/si';
 import { FaReact, FaNodeJs } from 'react-icons/fa';
 import { BiLogoMongodb } from 'react-icons/bi';
